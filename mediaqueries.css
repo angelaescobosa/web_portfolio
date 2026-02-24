@@ -16,11 +16,17 @@
     #hamburger-nav {
         display: flex;
     }
+    .menu-links li{
+        margin: 0;
+        padding: 0;
+        text-align: end;
+    }
     #experience, .experience-detail-container {
         margin-top: 2rem;
     }
     #profile, .section-container {
         display: block;
+        margin-top: 2.5rem;
     }
     .arrow {
         display: none;
@@ -31,11 +37,13 @@
     section {
         margin: 0 5%;
     }
+
     .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
     }
+
     .about-containers {
         margin-top: 0;
     }
